@@ -1,0 +1,33 @@
+#btn{
+    background-color: black;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 1s;
+}
+#btn:hover{
+    background-color: blueviolet;
+}
+.button{
+    background-color: rgba(11, 238, 105, 0.886);
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.button:hover{
+    background-color: blueviolet;
+}
+.btn-new{
+    background-color: blue;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 12px;
+    color: white;
+}
