@@ -1,33 +1,39 @@
-#btn{
-    background-color: black;
+#textField{
+    background-color: rgb(214, 189, 25);
+    border: 2px solid green;
     color: white;
-    padding: 15px 40px;
-    border: none;
-    box-sizing: border-box;
-    border-radius: 12px;
-    cursor: pointer;
-    transition: all 1s;
+    border-radius: 2px;
+    padding: 5px 10px;
+    font-size: 18px;
 }
-#btn:hover{
+#textField:hover{
     background-color: blueviolet;
 }
-.button{
-    background-color: rgba(11, 238, 105, 0.886);
-    color: white;
-    padding: 15px 40px;
-    border: none;
-    box-sizing: border-box;
-    border-radius: 12px;
-    cursor: pointer;
-    transition: all 1s ease;
+#textField:hover::placeholder {
+    color: blue; 
 }
-.button:hover{
-    background-color: blueviolet;
+.new-Div{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 900;
+    display: block;
+    align-self: center;
 }
-.btn-new{
-    background-color: blue;
-    padding: 15px 40px;
-    border: none;
-    border-radius: 12px;
-    color: white;
+.Text-Simple{
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    
+}
+#oldDiv{
+    display: flex;
+    gap: 15px;
+}
+#samuelImg {
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 80px;
+    left: 350px;
+    display: none;
 }
